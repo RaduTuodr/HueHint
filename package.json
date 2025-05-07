@@ -32,5 +32,7 @@
         "path": "./themes/huehint-color-theme.json"
       }
     ]
-  }
+  },
+  "publisher": "HueHint",
+  "repository": "https://github.com/RaduTuodr/HueHint"
 }

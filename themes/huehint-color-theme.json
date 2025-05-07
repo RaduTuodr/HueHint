@@ -1,0 +1,43 @@
+{
+  "name": "HueHint Theme",
+  "type": "dark",
+  "colors": {},
+  "tokenColors": [
+    {
+      "scope": "comment.line.double-slash.alert.cpp",
+      "settings": {
+        "foreground": "#a54f49"
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.question.cpp",
+      "settings": {
+        "foreground": "#5cace2"
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.silent.cpp",
+      "settings": {
+        "foreground": "#777777"
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.note.cpp",
+      "settings": {
+        "foreground": "#43ca8e"
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.insight.cpp",
+      "settings": {
+        "foreground": "#B39DDB"
+      }
+    },
+    {
+      "scope": "comment.line.double-slash.todo.cpp",
+      "settings": {
+        "foreground": "#FFA726"
+      }
+    }
+  ]
+}

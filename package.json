@@ -1,0 +1,36 @@
+{
+  "name": "huehint",
+  "displayName": "HueHint",
+  "description": "HueHint enhances code readability by colorizing comments based on intent. Highlight //! for alerts, //? for questions, and more — giving your comments visual weight and meaning without changing your code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.99.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "cpp",
+        "aliases": ["C++", "cpp"],
+        "extensions": [".cpp", ".cc", ".cxx", ".hpp", ".hh", ".hxx", ".h"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "cpp",
+        "scopeName": "source.cpp",
+        "path": "./syntaxes/cpp.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+        "label": "HueHint Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/huehint-color-theme.json"
+      }
+    ]
+  }
+}

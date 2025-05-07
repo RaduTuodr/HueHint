@@ -34,5 +34,6 @@
     ]
   },
   "publisher": "HueHint",
-  "repository": "https://github.com/RaduTuodr/HueHint"
+  "repository": "https://github.com/RaduTuodr/HueHint",
+  "icon": "logo.png"
 }
